@@ -4,7 +4,7 @@ You are the owners of an up-and-coming resort. Business is booming, and you need
 Upon further discussion with Dr. Koufakou, the project is shifted more onto a system management instead of booking . Guest reservations will come from an outside service (such as Kayak, Booking.com, etc.)
 
 The programming language used is **Java**.
-The project is subdivided in multiple versions. Each version will display its changes, under its own **Changelog**. There is also a section that displays possible future features that can be added to the program, under the section **Future Features**.
+The project is subdivided in multiple versions. Each version will display its changes, major updates will condense all the changes in a single block of text in order to be easier to read. There is also a section that displays possible future features that can be added to the program, under the section **TODO**.
 
 ## Project Description
 Our goal is to implement a software for hotel’s guests and staff.
