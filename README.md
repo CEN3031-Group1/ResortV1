@@ -10,10 +10,10 @@ The project is subdivided in multiple versions. Each version will display its ch
 Our goal is to implement a software for hotel’s guests and staff.
 If a guest wants to have extra towels or shampoos, they  can go to the housekeeping page and request it. They will be able to request room service, as well as placing maintenance requests if they encounter issues in their room. There would be concierge services, where guest can find the best activities to enjoy in the city, such as restaurants, local venues, etc.
 Hotel management will be able to track guest activities in real time, and as soon as they are completed, mark them as such.
-There will be multiple classes of users, which can be seen in the **UserTypes** file. (TO ADD)
+There will be multiple classes of users, which can be seen in the **EmployeeTypes** section of the README.
 
 ## ResortV1
-Screens from Group1 and ResortProject repositories combined and modiefied to be more cohesive. 
+Screens from Group1 and ResortProject repositories combined and modified to be more cohesive. 
 
 ### Major Update V1
 - Linked every screen to each other, now each screen is loaded onto one Anchorpane! 
@@ -54,8 +54,6 @@ index  |empType
 - [ ] Add fields for guest user data(credit card number, email address, etc.) either to Users table or set up a join
 - [ ] Integrate model code with view/controller code
 - [ ] Checking existing database records to prevent duplicate record insertion
-- [ ] Plenty more...
-
 
 ## Built With
 
