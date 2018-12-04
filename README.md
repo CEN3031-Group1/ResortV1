@@ -28,11 +28,11 @@ Screens from Group1 and ResortProject repositories combined and modified to be m
 
 userName | userPIN | isEmployee | empType
 -------- | ------- | ---------- | --------
-tylerm | 1234 | 1 | 1
-wyattb | 1684 | 1 | 1
-alsus | 2468 | 1 | 1
-lucam | 1215 | 1 | 3
 dickh | 1234 | 0 | 0
+wyattb | 1684 | 1 | 1
+bobb | 1111 | 1 | 2
+lucam | 1215 | 1 | 3
+tylerm | 1234 | 1 | 4
 food | 1811 | 1 | 5
 
 Employee Types (stored in EMPTYPES enum, checked by index):
