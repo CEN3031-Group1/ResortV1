@@ -14,12 +14,12 @@ There will be multiple classes of users, which can be seen in the **EmployeeType
 
 ## Installation
 - System Requirements 
--- Windows XP
+  - Windows XP
 
 - Download the Hotel- Management.jar file
 - Double click Hotel- Management.jar
 
-### This will start the program. 
+#### This will start the program. 
 
 
 ## ResortV1
