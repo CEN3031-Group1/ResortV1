@@ -17,6 +17,7 @@ There will be multiple classes of users, which can be seen in the **EmployeeType
 ## Installation
 - System Requirements 
   - Any type of Operating System with Java installed.
+  - Any program that can extract .zip files
   - 4Gb RAM
   - 1Gb Hard Disk
   
