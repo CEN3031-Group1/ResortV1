@@ -20,8 +20,8 @@ There will be multiple classes of users, which can be seen in the **EmployeeType
   - 4Gb RAM
   - 1Gb Hard Disk
   
-- Download the Hotel- Management.jar file
-- Double click Hotel- Management.jar
+- Download the FGCU_Inn.jar file
+- Double click FGCU_Inn.jar
 
 #### This will start the program. 
 
