@@ -20,7 +20,7 @@ There will be multiple classes of users, which can be seen in the **EmployeeType
   - 4Gb RAM
   - 1Gb Hard Disk
   
-- Download the FGCU_Inn.jar file
+- Download the project folder containing the FGCU_Inn.jar file
 - Double click FGCU_Inn.jar
 
 Alternatively, using the command prompt utilize: ```java -jar FGCU_Inn.jar``` while being in the same directory as the file.
