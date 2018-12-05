@@ -23,6 +23,8 @@ There will be multiple classes of users, which can be seen in the **EmployeeType
 - Download the FGCU_Inn.jar file
 - Double click FGCU_Inn.jar
 
+Alternatively, using the command prompt utilize: ```java -jar FGCU_Inn.jar``` while being in the same directory as the file.
+
 #### This will start the program. 
 
 
