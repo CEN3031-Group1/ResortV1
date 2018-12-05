@@ -2,10 +2,7 @@ import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.control.Button;
-import javafx.scene.control.CheckBox;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
+import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
 import org.apache.pdfbox.pdmodel.PDDocument;
@@ -89,6 +86,20 @@ public class ManagerHomeController {
   }
 
   public void RequestIsDone(ActionEvent actionEvent) {
+    Request selectedRequest;
+    selectedRequest = allRequestsTable.getSelectionModel().getSelectedItem();
+    if (selectedRequest != null) {
+      System.out.println("Mark request " + selectedRequest.getRequestID());
+      selectedRequest.completeRequest("no notes");
+      viewAllRequests();
+    } else {
+      Alert alert = new Alert(Alert.AlertType.INFORMATION);
+      alert.setTitle("Error");
+      alert.setHeaderText("Request not selected.");
+      alert.setContentText("Select a request and then click Mark as Done button.");
+      alert.showAndWait();
+    }
+
   }
 
   public void logOut(){

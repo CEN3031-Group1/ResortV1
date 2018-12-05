@@ -12,9 +12,9 @@ import javafx.stage.Stage;
 public class Main extends Application {
     static AnchorPane root;
 
-    static List<AnchorPane> grid = new ArrayList<AnchorPane>();
+    private static List<AnchorPane> grid = new ArrayList<>();
 
-    public static int current = 0;
+    private static int current = 0;
 
     @Override
     public void start(Stage primaryStage){
@@ -45,7 +45,7 @@ public class Main extends Application {
         primaryStage.setResizable(false);
         primaryStage.show();
         // Use the line below to skip login screen and jump to another to save time if frequently running
-        setPane(SCREENS.MANAGERHOME.getValue());
+//        setPane(SCREENS.MANAGERHOME.getValue());
       }
       catch(Exception e){
         e.printStackTrace();

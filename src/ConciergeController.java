@@ -24,6 +24,22 @@ public class ConciergeController {
   @FXML
   public TextField quantityKBBQ;
 
+  private String requestDetail;
+
+  /**
+   * Function requestDetailAdd is used to assemble the detail text that goes with a request.
+   *
+   * @param value - String containing the info to be included in the request
+   */
+  private void requestDetailAdd(String value) {
+    if(requestDetail.isEmpty())
+      requestDetail = value.trim();
+    else
+      requestDetail += ", \r\n" + value.trim();
+  }
+
+
+
   /**
    * Function getBackHome brings the user back to the main menu once the back arrow icon is clicked.
    *
@@ -40,11 +56,19 @@ public class ConciergeController {
    * and creates a maintenance request for managers that contains the type of concierge service the guest has
    * selected.
    *
-   * TODO: IMPLEMENT DB CHARGE AMOUNT + CREATE CONCIERGE REQUEST
-   *
    * @param actionEvent - Click of the mouse onto button
    */
   public void submitReservation(ActionEvent actionEvent) {
+    //
+    requestDetail = "";
+
+    if(getIntValue(quantityUniLandTickets) > 0) requestDetailAdd( "Reserve Universe Land Tickets: " + getIntValue(quantityUniLandTickets));
+    if(getIntValue(quantityAdvTickets) > 0) requestDetailAdd( "Reserve Archipelagos of Adventure Tickets: " + getIntValue(quantityAdvTickets));
+    if(getIntValue(quantityKBBQ) > 0) requestDetailAdd( "Reserve Seats at Korean BBQ: " + getIntValue(quantityKBBQ));
+
+    Request thisRequest = new Request(User.globalCurrentUser.getUserID(), 6, requestDetail,
+            User.globalCurrentUser.getGuestRoomNumber());
+    thisRequest.insertRequestInDB();
 
     //After DB method returns true
     Alert alert = new Alert(AlertType.INFORMATION);
@@ -58,4 +82,20 @@ public class ConciergeController {
     Main.setPane(SCREENS.GUESTHOME.getValue());
 
   }
+
+  public int getIntValue(TextField textField) {
+    int value = 0;
+    if(textField.getText() != null && textField.getText().trim().length() > 0)
+    {
+      try {
+        value = Integer.parseInt(textField.getText().trim());
+      } catch (NumberFormatException ex) {
+        //
+      }
+    }
+    return value;
+  }
+
+
+
 }
