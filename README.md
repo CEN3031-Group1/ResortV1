@@ -12,6 +12,15 @@ If a guest wants to have extra towels or shampoos, they  can go to the housekeep
 Hotel management will be able to track guest activities in real time, and as soon as they are completed, mark them as such.
 There will be multiple classes of users, which can be seen in the **EmployeeTypes** section of the README.
 
+## Installation
+- System Requirements 
+Windows XP
+
+Download the Hotel- Management.jar file
+Double click Hotel- Management.jar
+This will start the program.
+
+
 ## ResortV1
 Screens from Group1 and ResortProject repositories combined and modified to be more cohesive. 
 
