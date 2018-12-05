@@ -16,8 +16,9 @@ There will be multiple classes of users, which can be seen in the **EmployeeType
 - System Requirements 
 Windows XP
 
-Download the Hotel- Management.jar file
-Double click Hotel- Management.jar
+- Download the Hotel- Management.jar file
+- Double click Hotel- Management.jar
+
 This will start the program.
 
 
