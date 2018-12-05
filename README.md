@@ -6,7 +6,7 @@ Upon further discussion with Dr. Koufakou, the project is shifted more onto a sy
 The programming language used is **Java**.
 The project is subdivided in multiple versions. Each version will display its changes, major updates will condense all the changes in a single block of text in order to be easier to read. There is also a section that displays possible future features that can be added to the program, under the section **TODO**.
 
-All the documentation related to this project can be accessed [here](https://drive.google.com/drive/folders/1LB9RRYxb2T3-Lj7WudqFcAIZ3NMW687I).
+Final Documentation related to this project can be accessed [here](https://drive.google.com/drive/folders/1LB9RRYxb2T3-Lj7WudqFcAIZ3NMW687I).
 
 ## Project Description
 Our goal is to implement a software for hotel’s guests and staff.
@@ -20,8 +20,8 @@ There will be multiple classes of users, which can be seen in the **EmployeeType
   - 4Gb RAM
   - 1Gb Hard Disk
   
-- Download the Hotel- Management.jar file
-- Double click Hotel- Management.jar
+- Download the FGCU_Inn.jar file
+- Double click FGCU_Inn.jar
 
 #### This will start the program. 
 
